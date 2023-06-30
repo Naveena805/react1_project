@@ -12,7 +12,7 @@ import GynecoEmployee from './GynecoEmployee'
 import Profile1 from './Profile1Gyno';
 
 import { createContext } from 'react'
-import {empdata1,empdata2,empdata} from './Empdata';
+import {empdata1} from './Empdata';
 import { useState } from 'react'
 
 import Gynecohead from './Gynecohead'

@@ -59,12 +59,12 @@ const passres=(e)=>{
   return (
     <div className='bodymain container-fluid'>
     <div className='bodymain12 container-fluid'>
-    <h1 style={{color:'white'}}><u>Admin Login</u></h1>
+    <h1 className= 'adminstyle container-fluid' ><u>Admin Login</u></h1><br/>
 
   
-    <Form onSubmit={handleSubmit} >
+    <Form onSubmit={handleSubmit} className='f container-fluid'>
    
-   <Form.Group className="mb-3 " controlId="formGroupEmail">
+   <Form.Group className="mb-3  " controlId="formGroupEmail">
        <Form.Label className='label'>Name</Form.Label>
        <Form.Control type="text" placeholder="Enter name"  name="name" value="Naveena" readOnly='readOnly' onChange={handleChange} onBlur={handleBlur} style={{width:'300px'}} />
   

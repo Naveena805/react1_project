@@ -85,7 +85,13 @@ img{
     display: flex; /* Align cards horizontally */
     justify-content: center; /* Center cards horizontally */
   }
-
+  .adminstyle{
+color:white;
+margin-left: 800px;
+  }
+  .f{
+    margin-left: 800px;
+  }
   .hide-button {
     display: none;
   }

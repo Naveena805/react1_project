@@ -5,16 +5,13 @@ import React, { useState } from 'react';
   import Navbar1 from './Navbar1';
   import './Style2.css';
   import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-  import datastore from './Datastore';
   import Button from 'react-bootstrap/esm/Button';
   import { useNavigate } from 'react-router-dom';
   import Modal from 'react-bootstrap/Modal';
-  import Gynecohead from './Gynecohead';
-  import { DepContext } from './Main';
+   import { DepContext } from './Main';
   import { useContext } from 'react';
   import { Link } from 'react-router-dom';
   import { v4 as uuidv4 } from 'uuid';
-  import Depdetails from './Depdetails';
   const Dephead = () => {
     const navigate = useNavigate();
     const [showModal, setShowModal] = useState(false);
@@ -195,7 +192,7 @@ import React, { useState } from 'react';
                 <td>
                 
                   <input
-                    style={{ width: '50px', borderRadius: '10px' }}
+                    style={{ width: '80px', borderRadius: '10px' }}
                     type='text'
                     name='name'
                     value={input.name}
@@ -381,7 +378,7 @@ import React, { useState } from 'react';
                 </tr>
               ))}
 
-              <tr>
+              {/* <tr>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -390,7 +387,7 @@ import React, { useState } from 'react';
                 <td></td>
                 <td></td>
                 <td></td>
-              </tr>
+              </tr> */}
             </tbody>
           </table>
         </div>
