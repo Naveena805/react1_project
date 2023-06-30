@@ -1,0 +1,94 @@
+/* .bodymain{
+    background-image: url('C:\Users\LG\Desktop\React\my-app\public\hospital.jpg');
+    height: 100%;
+    width: 100%;
+} */
+.h11{
+    color: white ;
+  text-align:center ;
+}
+.table1{
+    width: '50%' ;
+   margin-left:'10px';
+   background-color: aliceblue;
+}
+.bodymain{
+   
+        background-image: url('../../images/h1.jpg');
+       height:1100px;
+       background-repeat:inherit; 
+}
+.bodymain12{
+    background-color: transparent; 
+  
+    margin-left: 800px;
+    padding-top: 100px; 
+     opacity: .8;
+    
+}
+.nav1{
+    height: 50px;
+    
+   
+}
+
+.b{ background-image: url('../../images/bg1.jpg');
+    
+    height:'70px';
+    width:'50%';
+margin-left: 0%;
+}
+.nav{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 26px;
+}
+img{
+    height: 50px;
+    width: 100px;
+}
+.bodyadddepp{
+    height: 700px;
+    width: 400px;
+ /* margin-top: 200px; */
+    margin-left: 600px;
+    background-color: rgb(175, 194, 211);
+    opacity: .8;
+}
+
+.bodyadddepp input{
+    height: 30px;
+    width:300px;
+}
+.bodyadddepp label {
+    color:blue;
+}
+.table{
+    height:100%;
+    width:50%
+}
+
+
+.custom-card {
+    background-color: rgb(145, 169, 169); /* Set the background color of the card */
+    margin: 10px;
+    margin-top: 100px;
+    height: 400px; /* Set the desired height of the card */
+    width: 350px; /* Set the desired width of the card */
+  }
+  
+  
+  .card-container {
+    
+    display: flex; /* Align cards horizontally */
+    justify-content: center; /* Center cards horizontally */
+  }
+
+  .hide-button {
+    display: none;
+  }
+  .custom-toggler .navbar-toggler-icon {
+    background-color: rgb(124, 133, 145);
+  }
